@@ -89,6 +89,16 @@ body {
     border: 1px solid #d0d0d0;
     text-align: center;
 }
+
+input[type="email"]:focus {
+    background-color: aliceblue;
+    color: #0D2B81;
+}
+
+input[type="text"],textarea[type="text"] {
+    text-transform: capitalize;
+}
+
 .info{
     margin-right: 10%;
     width: 50%;
@@ -96,6 +106,9 @@ body {
 .book{
     width: 45%;
     margin-right: 5%;
+}
+.opisan{
+    width: 40%;
 }
 .footer{
     width: 70%;
@@ -122,6 +135,10 @@ hr {
 .content img{
     border: 2px solid white;
     box-shadow: 0 3px 6px 1px rgba(50,50,50,0.11);
+}
+.content img:hover{
+    border: 2px solid transparent;
+    box-shadow: 0 3px 6px 1px transparent;
 }
 h2, h3{
     font-family: roboto regular;
@@ -151,3 +168,17 @@ h2, h3{
     line-height: 24px;
     font-weight: 600;
    }
+table{
+    text-align: left;
+}
+table td{
+    padding-left: 5%;
+}
+.book P:first-letter {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 200%; 
+    color: #0D2B81; 
+}
+.t{
+    border: 2px #0D2B81;
+}
